@@ -92,3 +92,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
  export LESS_TERMCAP_ue=$(printf '\e[0m') # leave underline mode
  export LESS_TERMCAP_us=$(printf '\e[04;36m') # enter underline mode - cyan
  if [ -f /usr/bin/screenfetch ] ; then screenfetch; fi
+
+
+cat .nf 2> /dev/null
+setsid neofetch >| .nf
