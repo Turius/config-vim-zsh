@@ -115,6 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH=$PATH:/home/turius/abin
+export PATH=$PATH:/opt/sublime_text3:/opt/jetbrains-toolbox
+export R_LIBS=$HOME/R
+
 alias ls="ls --color"
 alias ll="ls --color -l"
+
+cat .nf 2> /dev/null
+setsid neofetch >| .nf
