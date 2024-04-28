@@ -1,7 +1,7 @@
 set mouse=a
 set number
 set t_Co=256
-color koehler
+color habamax
 set noerrorbells
 set novisualbell
 set t_vb=
