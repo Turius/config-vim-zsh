@@ -115,7 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH=$PATH:/opt/sublime_text3:/opt/jetbrains-toolbox
 export R_LIBS=$HOME/R
 
 alias ls="ls --color"
