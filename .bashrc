@@ -122,3 +122,7 @@ alias ll="ls --color -l"
 
 cat .nf 2> /dev/null
 setsid neofetch >| .nf
+
+echo 'export FS_LICENSE=$HOME/license.txt' 
+echo 'export FREESURFER_HOME=/usr/local/freesurfer/7.4.1' 
+echo 'source $FREESURFER_HOME/SetUpFreeSurfer.sh' >
